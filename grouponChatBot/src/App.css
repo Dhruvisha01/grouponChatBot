@@ -1,4 +1,13 @@
-/* App.css */
+.app-background {
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
 
 /* Set background image */
 body {
@@ -8,8 +17,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('./assets/background.png');
+
   /* Replace with your image path */
+  background-image: url('./assets/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

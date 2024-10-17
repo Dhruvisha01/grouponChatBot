@@ -1,0 +1,36 @@
+.dealsPage {
+    /* background-color: white !important; */
+    background-image: none !important;
+    background-color: white !important;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 20px;
+}
+
+
+.deals-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.deal-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.deal-image {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.deal-card h3 {
+    margin-top: 10px;
+}
+
+.deal-card p {
+    margin: 5px 0;
+}
