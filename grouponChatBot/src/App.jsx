@@ -21,7 +21,7 @@ function App() {
         <Route path="/deals/:category/:location" element={<DealsPage />} /> {/* Render DealsPage when navigated */}
         <Route path="/sell_on_groupon" element={<Sell />} /> {/* Render Sell Page when navigated */}
         <Route path="/FAQs" element={<FAQ />} /> {/* Render FAQs Page when navigated */}
-        <Route path="/trending-coupons/:location" element={<TrendingCoupons />} /> {/* Render DealsPage when navigated */}
+        <Route path="/trending-coupons/:location" element={<TrendingCoupons />} /> {/* Render Trending Coupons when navigated */}
       </Routes>
 
     </>

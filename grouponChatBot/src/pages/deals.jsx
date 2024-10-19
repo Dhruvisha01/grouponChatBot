@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { dealsData } from '../constants/constants'; // Import the dummy data
-import './deals.css'
+import '../assets/css/deals.css';
 
 export const DealsPage = () => {
     const { category, location } = useParams(); // Get the category and location from the URL
@@ -14,7 +14,7 @@ export const DealsPage = () => {
         <div className="dealsPage">
             <h1>Deals for {category} in {location}</h1>
 
-            {/* Render the deals */}
+            {/* Render the deals as cards */}
             <div className="deals-list">
                 {deals.length > 0 ? (
                     deals.map((deal, index) => (

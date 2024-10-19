@@ -1,7 +1,7 @@
 import { useParams } from 'react-router-dom';
 import React from 'react';
 import { trendingCoupons } from '../constants/constants'; // Import the dummy data
-import './deals.css'
+import '../assets/css/deals.css'; // CSS Same as deals page
 
 export const TrendingCoupons = () => {
     const { location } = useParams();

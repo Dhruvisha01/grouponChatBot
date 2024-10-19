@@ -1,22 +1,22 @@
 
-import spa1 from '../assets/spa1.png';
-import spa2 from '../assets/spa2.png';
-import spa3 from '../assets/spa3.png';
-import things1 from '../assets/things1.png';
-import things2 from '../assets/things2.png';
-import things3 from '../assets/things3.png';
-import gifts1 from '../assets/gifts1.png';
-import gifts2 from '../assets/gifts2.png';
-import gifts3 from '../assets/gifts3.png';
-import auto1 from '../assets/auto1.png';
-import auto2 from '../assets/auto2.png';
-import auto3 from '../assets/auto3.png';
-import food1 from '../assets/food1.png';
-import food2 from '../assets/food2.png';
-import food3 from '../assets/food3.png';
-import travel1 from '../assets/travel1.png';
-import travel2 from '../assets/travel2.png';
-import travel3 from '../assets/travel3.png';
+import spa1 from '../assets/images/spa1.png';
+import spa2 from '../assets/images/spa2.png';
+import spa3 from '../assets/images/spa3.png';
+import things1 from '../assets/images/things1.png';
+import things2 from '../assets/images/things2.png';
+import things3 from '../assets/images/things3.png';
+import gifts1 from '../assets/images/gifts1.png';
+import gifts2 from '../assets/images/gifts2.png';
+import gifts3 from '../assets/images/gifts3.png';
+import auto1 from '../assets/images/auto1.png';
+import auto2 from '../assets/images/auto2.png';
+import auto3 from '../assets/images/auto3.png';
+import food1 from '../assets/images/food1.png';
+import food2 from '../assets/images/food2.png';
+import food3 from '../assets/images/food3.png';
+import travel1 from '../assets/images/travel1.png';
+import travel2 from '../assets/images/travel2.png';
+import travel3 from '../assets/images/travel3.png';
 
 
 export const dealsData = {
@@ -61,7 +61,6 @@ export const dealsData = {
                 rating: 4.4
             }
         ],
-        // ... other categories
     },
     'new york': {
         "Gifts": [
@@ -104,7 +103,6 @@ export const dealsData = {
                 rating: 4.5
             }
         ],
-        // ... other categories
     },
     austin: {
         "Food & Drink": [
@@ -147,7 +145,6 @@ export const dealsData = {
                 rating: 4.7
             }
         ],
-        // ... other categories
     }
 };
 

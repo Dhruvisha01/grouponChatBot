@@ -1,12 +1,10 @@
 .sellPage {
     width: 100vw;
     height: 100vh;
-    /* background-color: white; */
-    background-image: url('../assets/sellBackground.png');
+    /* Displaying Groupons Sell page as an image */
+    background-image: url('../images/sellBackground.png') !important;
     background-size: cover;
-    /* This makes sure the image covers the entire container without being cut off */
     background-position: center;
-    /* Centers the background image */
     background-repeat: no-repeat;
 }
 
@@ -14,7 +12,6 @@
     .sellPage {
         width: 100vw;
         height: 100vh;
-        /* background-color: white; */
         background-image: none;
         background-color: white !important;
     }

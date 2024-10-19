@@ -20,7 +20,7 @@ body {
 }
 
 .app-background {
-  background-image: url('./assets/background.png');
+  background-image: url('./assets/images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
@@ -44,7 +44,7 @@ body {
   align-items: center;
 
   /* Replace with your image path */
-  background-image: url('./assets/background.png');
+  background-image: url('./assets/images/background.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -6,7 +6,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-  }
+}
 
 .deals-list {
     display: flex;
@@ -48,8 +48,7 @@
 
     .deal-card {
         width: 100%;
-        /* Full width for mobile */
         margin-bottom: 20px;
-        /* Add space between cards */
+
     }
 }
