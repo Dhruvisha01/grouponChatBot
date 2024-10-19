@@ -1,0 +1,21 @@
+.sellPage {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: white; */
+    background-image: url('../assets/sellBackground.png');
+    background-size: cover;
+    /* This makes sure the image covers the entire container without being cut off */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .sellPage {
+        width: 100vw;
+        height: 100vh;
+        /* background-color: white; */
+        background-image: none;
+        background-color: white !important;
+    }
+}

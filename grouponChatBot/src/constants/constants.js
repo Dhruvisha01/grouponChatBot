@@ -150,3 +150,69 @@ export const dealsData = {
         // ... other categories
     }
 };
+
+
+export const trendingCoupons = {
+    pittsburgh: [
+        {
+            picture: spa1,
+            name: 'Relaxation Spa Package',
+            price: '$120',
+            rating: 4.5
+        },
+        {
+            picture: spa2,
+            name: 'Luxury Facial Treatment',
+            price: '$95',
+            rating: 4.7
+        },
+        {
+            picture: things2,
+            name: 'Outdoor Adventure Tour',
+            price: '$65',
+            rating: 4.6
+        }
+    ],
+    'new york': [
+        {
+            picture: gifts2,
+            name: 'Botox Treatment',
+            price: '$40',
+            rating: 4.7
+        },
+        {
+            picture: gifts3,
+            name: 'Empire State Building Passes',
+            price: '$70',
+            rating: 4.8
+        },
+        {
+            picture: auto3,
+            name: 'Motorcycling Riding Sessions',
+            price: '$180',
+            rating: 4.5
+        }
+    ],
+    austin: [
+        {
+            picture: food1,
+            name: 'BBQ Feast for Two',
+            price: '$45',
+            rating: 4.7
+        },
+        {
+            picture: food2,
+            name: 'Fine Dining Experience',
+            price: '$150',
+            rating: 4.9
+        },
+        {
+            picture: travel3,
+            name: 'Guided Hiking Trip',
+            price: '$100',
+            rating: 4.7
+        }
+
+    ],
+
+}

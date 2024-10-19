@@ -1,0 +1,19 @@
+.FAQ {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets//faqBackground.png);
+    background-size: cover;
+    /* This makes sure the image covers the entire container without being cut off */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .FAQ {
+        width: 100vw;
+        height: 100vh;
+        background-color: white !important;
+        background-image: none
+    }
+}
